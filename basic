@@ -1,0 +1,53 @@
+List folders and files:
+	ls <dir> <parameter>
+
+	examples:
+	ls -a (list all files, even hidden ones)
+	ls -h (list in human format)
+
+Change Directory:
+	cd <dir>
+	
+	examples
+	cd .. (go back)
+	cd ~ (go to beginning)
+
+Create New Dir(ectory):
+	mkdir <name>
+
+Delete Dir(ectory):
+	rmdir <name>
+
+Move file / Change Name:
+	mv <path/name> <path/name>
+	
+	tip. you can use to change files name
+	mv /home/user/test.txt /home/user/newname.txt
+	
+Create a txt:
+	touch <name>
+	
+Delete file:
+	rm <name>
+
+Copy file:
+        cp <path/name> <path/name>
+
+Clear Terminal Screen:
+	clear
+	or
+	Ctrl+L
+
+Open New Terminal Session:
+	Ctrl+Alt+T
+
+End Session:
+	exit
+	or
+	Ctrl+D
+
+Copy something in Terminal:
+	Ctrl+Shift+C
+
+Paste in Terminal
+	Ctrl+Shift+V

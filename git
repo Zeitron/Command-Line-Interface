@@ -1,0 +1,62 @@
+Author name and email address:
+	git config --global user.name "<name>"
+	git config --global user.email "<email>"
+
+Start New Repository:
+	git init <path/dir>
+
+Download Repository:
+	git clone <url>
+
+Add file to staging area:
+	git add
+
+	tip. add all files
+	git add -a 
+	
+Record the file permanently in the version history:
+	git commit -m "<message>"
+
+Show the file differences which are not yet staged:
+	git diff
+
+Unstages the file:
+	git reset <file>
+
+Check files that have to be committed:
+	git status
+
+Delete the file from your working dir and stages the deletion:
+	git rm <file>
+
+List the version history fr the current branch:
+	git log
+
+List all the local branches:
+	git branch
+
+Create New Branch:
+	git branch <new branch name>
+
+Delete the feature branch:
+	git branch -d <branch name>
+
+Switch Branch:
+	git checkout <branch name>
+
+Merge Branch's history to current branch:
+	git merge <branch name>
+
+Connect your local repository to the remote server:
+	git remote add <variable name> <remote server's url>
+
+Send the committed changes of master branch to repository:
+	git push <variable name> master
+
+	examples:
+
+	git push --all <variable name> 
+		push all branches to your remote repo
+
+Fetches and merge changes on the remote server to your working dir:
+	git pull <url>

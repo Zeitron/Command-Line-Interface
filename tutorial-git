@@ -1,0 +1,42 @@
+#-1. Create a git account 
+#	https://github.com/join
+
+0. Download git and install
+	apt-get install git
+
+0.1 Start git repository
+	git init <repo name>
+	 
+	or
+
+0.1 Clone (Download) git repository
+	git clone <url>
+
+#0.2 (optional) Config git
+#	git config --global user.name "<user name>"
+#	git config --global user.email "<user email>" 
+#	tip: quotation marks ("") are needed
+
+1. Check for updates
+	#you need to do it everytime you start work, it will sync you with remote repo
+	#you dont have to do it if you started your local git repo right now
+	git pull <url>
+
+2. Do something
+#	you dont have to but you should
+#	¯\_(ツ)_/¯
+
+3. Add your trash-code to stages
+	git add -A
+#	try git add -A --verbose
+
+4. Commit
+	git commit -m "explain what you have done"
+#	explain or give a good title, remember you cant remember your code one week later
+#	imagine a stranger reading your code, will he/she understand?
+
+5. Push (Harder)
+	git push <variable name> master
+#	type your user name and password
+#	great! Now your code is online to embarrass you! Perfect 1/10
+

@@ -1,0 +1,19 @@
+Create New User:
+	adduser <username>
+
+Delete User:
+	userdel <name> <parameter>
+	-r: delete users dir and spoll emails
+	
+Add User to Sudo Group:
+	usermod -aG sudo <username>
+
+Remove User from Sudo Group:
+	deluser <name> sudo
+
+Show Users:
+	cat /etc/passwd | grep /bin/bash
+
+Change User:
+	su - <user>
+
