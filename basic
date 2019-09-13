@@ -55,3 +55,12 @@ Paste in Terminal
 Show History
 	history
 	*history -c (clear history)
+
+Show contests of a file
+	cat <file>
+
+Download file from the internet
+	wget <url>
+
+Show full path
+	pwd 
