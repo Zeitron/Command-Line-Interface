@@ -51,3 +51,7 @@ Copy something in Terminal:
 
 Paste in Terminal
 	Ctrl+Shift+V
+
+Show History
+	history
+	*history -c (clear history)
